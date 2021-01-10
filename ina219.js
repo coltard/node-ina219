@@ -29,8 +29,13 @@ var Ina219 = function() {}
 // ==========================================================================
 var INA219_ADDRESS                         	= 0x40    ; // 1000000 (A0+A1=GND)
 var INA219_ADDRESS_A0                      	= 0x41    ; 
+<<<<<<< Updated upstream
 var INA219_ADDRESS_A1                      	= 0x42    ; 
 var INA219_ADDRESS_A0_A1                   	= 0x43    ;
+=======
+var INA219_ADDRESS_A1                      	= 0x43    ; 
+var INA219_ADDRESS_A0_A1                   	= 0x44    ;
+>>>>>>> Stashed changes
 
 var INA219_READ 							= 0x01; 
 // ===========================================================================
